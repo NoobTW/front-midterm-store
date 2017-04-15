@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+	font-family: '微軟正黑體';
+	font-size:16px;
+	margin:0 auto;
+}
+.wrap{
+	width:1000px;
+	margin: 0 auto;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+}
+
+.left{
+	float:left;
+	font-size: 14px;
+}
+.text{
+	width:80px;
+}
+.right{
+	float:right;
+}
+
+.search{
+	margin-left: 293px;
+}
+
+.promotion{
+	padding-bottom: 5px;
+	background-color: #FBE4D4;
+	border:solid 1px #888888;
+	font-size: 16px;
+}
+.promotion li{
+	display: inline;
+}
+.promotion a:hover{
+	color:brown;
+}
+.classify{
+	width:200px;
+	margin-top: 10px;
+}
+
+.classify li{
+	border:solid 1px #888888;
+	list-style:none;
+	text-align: center;
+}
+.classify li:hover{
+	background-color: black;
+}
+.pr{
+	margin-top:10px;
+}
+.pricerange{
+	padding:5px;
+	background-color: #FFD966;
+	margin-bottom: 10px;
+	width:190px;
+	border:solid 1px #888888;
+}
+.star{
+	width:100px;
+	height:20px;
+}
+.evalution{
+	padding:5px;
+	background-color: #FFD966;
+	width:190px;
+	border:solid 1px #888888;
+	margin-bottom: 10px;
+}
+.status{
+	padding:5px;
+	background-color: #FFD966;
+	width:190px;
+	border:solid 1px #888888;
+	margin-bottom: 5px;
+}
+.sort{
+	float:right;
+	height: 22px;
+}
+
+.sort select{
+	height: 22px;
+	vertical-align: top;
+}
+
+.result{
+	width:780px;
+	border:solid 1px #888888;
+	background-color: #FBE4D4;
+	margin-top:29px;
+}
+.productall{
+	width:780px;
+	margin-top:10px;
+	border:solid 1px #888888;
+	background-color: #FBE4D4;
+}
+.productpic-father{
+	float: left;
+}
+.productpic{
+	width:200px;
+}
+.product{
+	margin-top: 50px;
+	width:520px;
+	float:left;
+	margin-left:15px;
+}
+
+.productname{
+	height:25px;
+}
+.productname a:hover{
+	color:brown;
+}
+.price{
+	float:left;
+	font-weight: bold;
+	color:#4169E1;
+	font-size: 25px;
+}
+.addtocart{
+	float:right;
+	background-color: white;
+	border:solid 1px #888888;
+	width:100px;
+	height:25px;
+	text-align: center;
+
+}
+.addtocart a:hover{
+	color:brown;
+}
+.foodinfo{
+	width:200px;
+}
+.date{
+	float:left;
+	padding-top: 2px;
+}
+.stars{
+	float:right;
+}
+.intro2{
+	margin-top: 50px;
+}
+
+
+
+
+
