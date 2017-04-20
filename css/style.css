@@ -55,7 +55,7 @@ ul{
 	float: left;
 	border: 1px solid #ababab;
 	margin-top: 55px;
-	margin-left: 220px;
+	margin-left: 300px;
 }
 
 .header input[type="text"]{
@@ -204,13 +204,19 @@ ul{
 	cursor: pointer;
 }
 
+.productinfo{
+	line-height: 1.8rem;
+	white-space: pre-wrap;
+}
+
 .product-quantity{
 	width: 3rem;
-	margin: 0 -0.3rem;
+	margin: -1.8px -0.3rem;
 	vertical-align: top;
 	font-size: 1rem;
 	padding: .5rem;
 	outline: 0;
+	height: 2.5rem;
 	text-align: center;
 	border: 2px solid #333;
 }
@@ -338,23 +344,23 @@ input, select{
 
 .eletronic{
 	float: left;
-	width: 700px;
+	width: 750px;
+	margin-left: 30px;
 }
 
 .eletronic img{
-	width: 700px;
+	width: 750px;
 	height: 200px;
 	margin-bottom: 20px;
 }
 
 .hotsale{
   float: left;
-  width: 700px;
+  margin-left: 30px;
 }
 
 .hotsale img{
-  width: 700px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .goods li{
@@ -362,7 +368,7 @@ input, select{
 }
 
 .goods img{
-	width: 220px;
+	width: 237px;
 	height: 200px;
 	border: 1px solid black;
 	float: left;
@@ -372,8 +378,6 @@ input, select{
 }
 
 .goods img:hover{
-	width: 220px;
-	height: 200px;
 	-webkit-transform: scale(1.1);
 	-webkit-transition: 1s;
 }
@@ -468,8 +472,18 @@ h2{
 	float: left;
 }
 
+.wrapper_product .num{
+	float: none;
+	margin-top: 50px;
+}
+
+.wrapper_product .product-quantity-wrapper{
+	margin-top: -10px;
+}
+
 .volume{
-	margin-left: 70px;
+	margin-top: -30px;
+	margin-left: 50px;
 }
 
 .putnum{
@@ -575,8 +589,11 @@ h2{
 
 .bulletin{
 	width: 820px;
+	line-height: 1rem;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
 	margin-left: 70px;
-	text-align:center;
+	text-align:left;
 }
 
 .like{
