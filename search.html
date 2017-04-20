@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>搜尋結果</title>
-	<link rel="stylesheet" href="css/category.css">
-	<link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="wrap">
+	<div class="wrapper wrapper_search">
 		<div class="header">
 			<div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
 			<div class="search">
@@ -28,7 +29,6 @@
 			</ul>
 		</div>
 		<div class="left">
-			
 			<div class="pr">價格範圍搜尋</div>
 			<div class="pricerange">
 				<input class="text" type="text" placeholder="最低"></input>
@@ -36,31 +36,35 @@
 			</div>
 			商品評價
 			<div class="evalution">
-				<img class="star"src="img/五星.png" alt="">
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
 			</div>
-	
 			商品狀態
 			<div class="status">
 				<input type="checkbox"></input>新品上市<br>
 				<input type="checkbox"></input>現貨供應<br>
+				<input class="submit" type="submit" value="確定"></input>	
 			</div>
-			<input class="submit" type="submit" value="確定"></input>		
-			<div class="classify">
-				<ul>分類列表
-					<li><a href="category.html">影音/電子周邊樂器</a></li>
-					<li><a href="category.html">電腦/辦公用品</a></li>
-					<li><a href="category.html">廚房/生活家電</a></li>
-					<li><a href="category.html">戶外/庭院用品</a></li>
-					<li><a href="category.html">家具/床墊/藝術</a></li>
-					<li><a href="category.html">美體/美髮/保健</a></li>
-					<li><a href="category.html">食品/雜貨/寵物</a></li>
-					<li><a href="category.html">服裝/鞋包/配件/行李</a></li>
-					<li><a href="category.html">珠寶/手錶/眼鏡</a></li>
-					<li><a href="category.html">運動/休閒/健身/水上活動</a></li>
-					<li><a href="category.html">婦幼/兒童/玩具</a></li>
-					<li><a href="category.html">汽車/五金百貨</a></li>
-					<li><a href="category.html">節慶/禮品/票券/花卉</a></li>
-					<li><a href="category.html">商業配送</a></li>
+			<div class="left_list">
+				<ul>
+					<a href="category.html"><li class="toplist">影音/電子周邊樂器</li></a>
+					<a href="category.html"><li>電腦/辦公用品</li></a>
+					<a href="category.html"><li>廚房/生活家電</li></a>
+					<a href="category.html"><li>戶外/庭院用品</li></a>
+					<a href="category.html"><li>家具/床墊/藝術</li></a>
+					<a href="category.html"><li>居家/廚房/寢具</li></a>
+					<a href="category.html"><li>美體/美髮/保健</li></a>
+					<a href="category.html"><li>食品/雜貨/寵物</li></a>
+					<a href="category.html"><li>服裝/鞋包/配件/行李</li></a>
+					<a href="category.html"><li>珠寶/手錶/眼鏡</li></a>
+					<a href="category.html"><li>運動/休閒/健身/水上活動</li></a>
+					<a href="category.html"><li>婦幼/兒童/玩具</li></a>
+					<a href="category.html"><li>汽車/五金百貨</li></a>
+					<a href="category.html"><li>節慶/禮品/票券/花卉</li></a>
+					<a href="category.html"><li>商業配送</li></a>
 				</ul>
 			</div>
 		</div>
@@ -76,16 +80,18 @@
 					</select>
 				</div>
 			</div>
-			
 			<div class="productall">
 				<div class="productpic-father"><a href="productpage.html"><img class="productpic" src="img/shelf2.jpg" alt=""></a></div>
 				<div class="product">
 						<div class="productname"><a href="productpage.html">日系居家收納斗櫃</a></div>
-					
 						<div class="intro">
 							<div class="date">上架日期：2017/4/17</div>
 							<div class="stars">評價：
-							<img class="star"src="img/五星.png" alt="">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
 							</div>
 						</div>
 						<div class="intro2">
@@ -101,11 +107,14 @@
 				<div class="productpic-father"><a href="productpage.html"><img class="productpic" src="img/shelf1.jpg" alt=""></a></div>
 				<div class="product">
 						<div class="productname"><a href="productpage.html">漾彩粉嫩收納櫃</a></div>
-					
 						<div class="intro">
 							<div class="date">上架日期：2017/4/17</div>
 							<div class="stars">評價：
-							<img class="star"src="img/五星.png" alt="">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
 							</div>
 						</div>
 						<div class="intro2">
@@ -121,11 +130,14 @@
 				<div class="productpic-father"><a href="productpage.html"><img class="productpic" src="img/shelf3.jpg" alt=""></a></div>
 				<div class="product">
 						<div class="productname"><a href="productpage.html">16格魔術方塊組合櫃</a></div>
-					
 						<div class="intro">
-							<div class="date">上架日期：</div>
+							<div class="date">上架日期：2017/4/17</div>
 							<div class="stars">評價：
-							<img class="star"src="img/五星.png" alt="">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+								<i class="fa fa-star-o"></i>
 							</div>
 						</div>
 						<div class="intro2">
@@ -141,11 +153,14 @@
 				<div class="productpic-father"><a href="productpage.html"><img class="productpic" src="img/shelf4.jpg" alt=""></a></div>
 				<div class="product">
 						<div class="productname"><a href="productpage.html">現代床白色收納小櫃</a></div>
-					
 						<div class="intro">
 							<div class="date">上架日期：2017/4/17</div>
 							<div class="stars">評價：
-							<img class="star"src="img/五星.png" alt="">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+								<i class="fa fa-star-o"></i>
+								<i class="fa fa-star-o"></i>
 							</div>
 						</div>
 						<div class="intro2">
@@ -156,34 +171,6 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-
-<!--			
-			<div class="productall">
-				<div class="productpic-father"><a href=""><img class="productpic" src="img/shelf5.jpg" alt=""></a></div>
-				<div class="product">
-						<div class="productname"><a href="">木質復古桌面多功能收納櫃</a></div>
-					
-						<div class="intro">
-							<div class="date">上架日期：2017/4/17</div>
-							<div class="stars">評價：
-							<img class="star"src="img/五星.png" alt="">
-							</div>
-						</div>
-						<div class="intro2">
-							<div class="price">$754</div>
-							<div class="addtocart"><a href="">加入購物車</a></div>
-
-						</div>
-				</div>
-				<div class="clear"></div>
-			</div>-->
-
-
-
-
-
-
-
 		</div>
 		<div class="clear"></div>
 		<div class="footer">
@@ -192,6 +179,6 @@
 			<a href="#">客服中心 </a>
 			<a href="#">賣場相關服務 </a>
 		</div>
-	</div>	
+	</div>
 </body>
 </html>
